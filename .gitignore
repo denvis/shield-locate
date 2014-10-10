@@ -1,0 +1,15 @@
+www/bower_components
+www/bower_components/*
+www/app/data
+www/app/data/*
+/tmp/*
+www/lib/Cake/Console/Templates/skel/tmp/cache/persistent/*
+www/app/tmp/*
+www/app/tmp/cache/*
+www/app/tmp/cache/persistent/*
+www/app/tmp/cache/models/*
+www/app/tmp/logs/*
+www/app/webroot/files/media/*
+www/app/webroot/files/usersprofile/*
+.vagrant/*
+Vagrantfile
