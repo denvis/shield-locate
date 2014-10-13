@@ -1,9 +1,0 @@
-{
-    "name": "robinson-parser",
-    "require": {
-        "cakephp/cakephp": "2.5.*"
-    },
-    "config": {
-        "vendor-dir": "Vendor/"
-    }
-}

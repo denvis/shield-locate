@@ -12,4 +12,3 @@ www/app/tmp/logs/*
 www/app/webroot/files/media/*
 www/app/webroot/files/usersprofile/*
 .vagrant/*
-Vagrantfile

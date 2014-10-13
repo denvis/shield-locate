@@ -1,0 +1,19 @@
+{
+    "name": "boilerplate",
+    "require": {
+        "cakephp/cakephp": "2.5.*"
+    },
+    "config": {
+        "vendor-dir": "Vendor/"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "bower install",
+            "npm install"
+
+        ],
+        "post-update-cmd": [
+            "bower install"
+        ]
+    }
+}
