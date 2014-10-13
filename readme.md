@@ -1,10 +1,10 @@
 Requirements
-	- npm
-	- bower
-	- composer
-	- grunt
-	- vagrant
-	- php 5.4*
+	npm
+	bower
+	composer
+	grunt
+	vagrant
+	php 5.4*
 
 Setup
 	
