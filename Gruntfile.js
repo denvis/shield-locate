@@ -23,7 +23,7 @@ module.exports = function(grunt) {
       },
       js_frontend: {
         src: [
-          './bower_components/jquery/jquery.js',
+          './bower_components/jquery/dist/jquery.js',
           './bower_components/bootstrap/dist/js/bootstrap.js',
           './bower_components/bootstrap-material-design/dist/js/material.js',
           './bower_components/bootstrap-material-design/dist/js/ripples.js',
@@ -33,7 +33,7 @@ module.exports = function(grunt) {
       },
       js_backend: {
         src: [
-          './bower_components/jquery/jquery.js',
+          './bower_components/jquery/dist/jquery.js',
           './bower_components/bootstrap/dist/js/bootstrap.js',
           './assets/javascript/backend.js'
         ],
