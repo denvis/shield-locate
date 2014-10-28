@@ -17,3 +17,7 @@ Setup
 
 	vagrant up
 
+Deployment
+    
+    remove www and vendor path from .gitignore File
+    
