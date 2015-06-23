@@ -4,6 +4,11 @@ node_modules
 node_modules/*
 Vendor
 Vendor/*
-www/*
+www/tmp
+www/Config/database.php
+www/Config/database.php.default
+www/Config/core.php
+www/tmp/*
+www/webroot/files/media/*
 /tmp/*
 .vagrant/*
