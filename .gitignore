@@ -2,8 +2,6 @@ bower_components
 bower_components/*
 node_modules
 node_modules/*
-Vendor
-Vendor/*
 www/tmp
 www/Config/database.php
 www/Config/database.php.default
