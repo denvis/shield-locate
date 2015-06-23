@@ -1,6 +1,6 @@
 [submodule "www/Plugin/Users"]
 	path = www/Plugin/Users
-url=https://192.30.252.128/CakeDC/users.git
+url=http://192.30.252.128/CakeDC/users.git
 [submodule "www/Plugin/Migrations"]
 	path = www/Plugin/Migrations
-url=https://192.30.252.128/CakeDC/migrations.git
+url=http://192.30.252.128/CakeDC/migrations.git
