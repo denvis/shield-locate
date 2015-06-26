@@ -110,7 +110,26 @@ class GeofenceStatesController extends AppController {
 		return $this->redirect(array('action' => 'index'));
 	}
 
-	public function set ($geofence_id = null, $user_id = null) {
+	public function setstate () {
 
+		$this->autoRender = false;
+		if ($this->request->is('post')) {
+			if($this->request->data['device']) {
+				$data = array(
+					'device' 	=> $this->request->data['device'],
+					'call_id' 	=> $this->request->data['id'],
+					'latitude' 	=> $this->request->data['latitude'],
+					'longitude' => $this->request->data['longitude'],
+					'trigger' 	=> $this->request->data['trigger'],
+					'timestamp' => $this->request->data['timestamp']
+					);
+				$this->GeofenceState->create();
+				if ($this->GeofenceState->save($data)) {
+					echo (__('The geofence state has been saved.'));
+				} else {
+					echo(__('The geofence state could not be saved. Please, try again.'));
+				}
+			}
+		}
 	}
 }
